@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryption App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="head">
+            <img src="https://picsum.photos/1000/700">
+            <p></p>
+        </div>
+        <div class="file" onclick="document.querySelector('.file input').click()">
+            <input type="file" accept="image/*">
+            <svg class="cls-1" viewBox="0 0 32 32">
+                <path d="M16,1A15,15,0,1,0,31,16,15,15,0,0,0,16,1Zm0,26A11,11,0,1,1,27,16,11,11,0,0,1,16,27Z" />
+                <path
+                    d="M19.59,15.55l-.58.58L18,18V10a2,2,0,0,0-4,0v8l-1-1.78-.65-.65a2,2,0,0,0-2.83,2.83l5,5a2,2,0,0,0,2.83,0l5-5a2,2,0,0,0-2.83-2.83Z" />
+            </svg>
+            <img src="">
+        </div>
+        <div class="title">Secret message</div>
+        <input class="text-input" type="text" placeholder='Enter your secret message'>
+        <div class="card__wrapper">
+            <button id="encrypt-button" class="card__btn">Encrypt</button>
+            <button id="decrypt-button" class="card__btn ">Decrypt</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/stegojs/dist/Stego.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
