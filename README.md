@@ -74,5 +74,3 @@ Please adhere to our [Contributing Guidelines](CONTRIBUTING.md).
 ## License
 
 This project is open-source and is licensed under the MIT License.
-```
-
