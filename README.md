@@ -74,8 +74,5 @@ Please adhere to our [Contributing Guidelines](CONTRIBUTING.md).
 ## License
 
 This project is open-source and is licensed under the MIT License.
-
-Feel free to adapt this template to fit your project's specific requirements. Add any additional sections or details that you believe are relevant to your project. Enjoy enhancing and sharing your modern Steganography Hub!
 ```
 
-Make sure to replace `"demo.gif"` with the actual path or URL to your demo image or video. Additionally, consider adding more details, such as acknowledgments, in the README to further enhance its quality.
